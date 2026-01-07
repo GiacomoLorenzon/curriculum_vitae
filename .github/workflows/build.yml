@@ -35,6 +35,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
-          git add cv.pdf
+          git add main.pdf
           git commit -m "Auto-compile PDF" || echo "No changes to commit"
           git push
